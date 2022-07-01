@@ -7,17 +7,10 @@
   height: 100vh;
 }
 
-.App-logo {
-  height: 83px;
-  width: 67px;
-  align-items: center;
-  padding-top: 95px;
-}
-
 .lobo {
+  padding-top: 95px;
   height: 83px;
   width: 67px;
-  margin-bottom: 114px;
 }
 
 .parrafo {
@@ -60,7 +53,7 @@
   width: 260px;
   color: #FF3E48;
   font-family: Brice Regular Condensed;
-  font-size: 42.4px;
+  font-size: 39.2px;
   letter-spacing: 0;
   line-height: 52px;
 }
@@ -70,7 +63,7 @@
   width: 289px;
   color: #FF3E48;
   font-family: Brice Black;
-  font-size: 44.8px;
+  font-size: 39.2px;
   font-weight: 900;
   letter-spacing: 0;
   line-height: 54px;
@@ -81,7 +74,7 @@
   width: 260px;
   color: #FF3E48;
   font-family: Brice Regular Condensed;
-  font-size: 42.4px;
+  font-size: 39.2px;
   letter-spacing: 0;
   line-height: 52px;
 }
@@ -91,10 +84,14 @@
   width: 289px;
   color: #FF3E48;
   font-family: Brice Black;
-  font-size: 44.8px;
+  font-size: 39.2px;
   font-weight: 900;
   letter-spacing: 0;
   line-height: 54px;
+}
+
+.renglon2 {
+  margin-left: 40px;
 }
 
 .like {
@@ -102,7 +99,7 @@
   width: 260px;
   color: #FF3E48;
   font-family: Brice Regular Condensed;
-  font-size: 42.4px;
+  font-size: 39.2px;
   letter-spacing: 0;
   line-height: 52px;
 }
@@ -112,7 +109,7 @@
   width: 260px;
   color: #FF3E48;
   font-family: Brice Extra Light SemiCondensed;
-  font-size: 42.4px;
+  font-size: 39.2px;
   letter-spacing: 0;
   line-height: 52px;
 }
@@ -122,7 +119,7 @@
   width: 260px;
   color: #FF3E48;
   font-family: Brice Regular Condensed;
-  font-size: 42.4px;
+  font-size: 39.2px;
   letter-spacing: 0;
   line-height: 52px;
 }
@@ -132,52 +129,52 @@
   width: 260px;
   color: #FF3E48;
   font-family: Brice Extra Light SemiCondensed;
-  font-size: 42.4px;
+  font-size: 39.2px;
   letter-spacing: 0;
   line-height: 52px;
 }
 
+.renglon3 {
+  margin-left: 170px;
+}
+
 .contenedor {
   grid-area: footer;
-  padding-top: 20px;
-  text-align: center;
   background-color: #FE5351;
   height: 66px;
   width: 100vw;
   border-radius: 7px;
-  font-family: Brice Black;
-  font-size: 26px;
-  color: #FFFFFF;
-}
-
-.contact {
-  height: 29px;
-  width: 157px;
-  margin-right: 41px;
-  margin-left: 10px;
-  font-size: 29px;
-  font-weight: 900;
-  letter-spacing: 0;
-  line-height: 32px;
+  flex-direction: column;
+  text-align: center;
 }
 
 .plane {
   height: 32px;
   width: 43px;
+  margin-right: 10px;
+}
+
+.contact {
+  height: 29px;
+  width: 157px;
+  font-family: Brice Black;
+  color: #FFFFFF;
+  font-size: 29px;
+  margin-right: 40px;
 }
 
 .resume {
   height: 29px;
-  width: 157px;
-  margin-left: 40px;
-  margin-right: 10px;
+  width: 134px;
+  font-family: Brice Black;
+  color: #FFFFFF;
   font-size: 29px;
-  font-weight: 900;
-  letter-spacing: 0;
   line-height: 32px;
+  margin-left: 40px;
 }
 
 .block {
   height: 40px;
   width: 41px;
+  margin-left: 10px;
 }

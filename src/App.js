@@ -18,26 +18,33 @@ function App() {
             <span className='vanne'>vannelope</span>
             <span className='designer'> is a designer based in</span>
             <span className='medellin'> medellin,</span> <br></br>
-            <img src={icon1} className="pc" alt="icon" />
-            <span className='yo'> I</span>
-            <span className='design'> design, <img src={icon2} className="rayo" alt="icon" /> research</span>
-            <span className='take'> and take some</span>
-            <span className='fotos'> photos.</span> <br></br>
-            <span className='like'>I like to</span>
-            <span className='paint'> paint, read, travel</span>
-            <span className='good'> and a good</span>
-            <span className='cafe'> coffee <img src={icon3} className="coffee" alt="icon" /> </span>
+            <div className='renglon2'>
+              <img src={icon1} className="pc" alt="icon" />
+              <span className='yo'> I</span>
+              <span className='design'> design, <img src={icon2} className="rayo" alt="icon" /> research</span>
+              <span className='take'> and take some</span>
+              <span className='fotos'> photos.</span> <br></br>
+            </div>
+            <div className='renglon3'>
+              <span className='like'>I like to</span>
+              <span className='paint'> paint, read, travel</span>
+              <span className='good'> and a good</span>
+              <span className='cafe'> coffee <img src={icon3} className="coffee" alt="icon" /> </span>
+            </div>
           </p>
         </div>
         <div className='contenedor'>
-          <span><img src={icon4} className="plane" alt="icon" /></span>
-          <span className='contact'>CONTACT </span>
-          <span className='resume'>RESUME </span>
-          <span><img src={icon5} className="block" alt="icon" /></span>
+          <span className='plane'>
+            <img src={icon4} alt="icon" />
+          </span>
+          <span className='contact'>CONTACT</span>
+          <span className='resume'>RESUME</span>
+          <span className='block'>
+            <img src={icon5} alt="icon" />
+          </span>
         </div>
       </div>
-    </body>  
+    </body>
   );
 }
-
 export default App;
