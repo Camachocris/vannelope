@@ -7,6 +7,26 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+@font-face {
+  font-family: "Brice-Black";
+  src: url(./fonts/brice/Brice-Black.otf) format('otf');
+}
+
+@font-face {
+  font-family: "Brice-BoldCondensed";
+  src: url(./fonts/brice/Brice-BoldCondensed.otf) format('otf');
+}
+
+@font-face {
+  font-family: "Brice-ExtraLightSemiCondensed";
+  src: url(./fonts/brice/Brice-ExtraLightSemiCondensed.otf) format('otf');
+}
+
+@font-face {
+  font-family: "Brice-RegularCondensed";
+  src: url(./fonts/brice/Brice-RegularCondensed.otf) format('otf');
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
