@@ -51,13 +51,13 @@ function App() {
       </div>
 
       <div className='contenedor'>
-        <span className='plane'>
+        <span className='contact'>
           <img src={icon4} alt="icon" />
+          &nbsp;<span>CONTACT</span>
         </span>
-        <span className='contact'>CONTACT</span>
-        <span className='resume'>RESUME</span>
-        <span className='block'>
-          <img src={icon5} alt="icon" />
+        <span className='resume'>
+          <span>RESUME</span>
+          &nbsp;<img src={icon5} alt="icon" />
         </span>
       </div>
     </div>
