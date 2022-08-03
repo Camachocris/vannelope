@@ -69,6 +69,11 @@
   line-height: 54px;
 }
 
+a {
+  color: #FF3E48;
+  text-decoration: none;
+}
+
 .take {
   height: 52px;
   width: 260px;
@@ -157,6 +162,10 @@
   padding: 20px 0;
 }
 
+#con {
+  color: #FFFFFF;
+}
+
 .resume {
   display: flex;
   font-family: Brice Black;
@@ -164,6 +173,10 @@
   font-size: 29px;
   margin-left: 40px;
   padding: 20px 0;
+}
+
+#resu {
+  color: #FFFFFF;
 }
 
 .parrafo-mobile {

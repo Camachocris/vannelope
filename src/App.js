@@ -18,10 +18,10 @@ function App() {
         <span className='medellin'> medellin,</span> <br></br>
         <div className='renglon2'>
           <img src={icon1} className="pc" alt="icon" />
-          <span className='yo'> I</span>
-          <span className='design'> design, <img src={icon2} className="rayo" alt="icon" /> research</span>
+          <span className='yo'> I </span>
+          <span className='design'><a id='des' href='https://dribbble.com/vannelope____' target='_blank' >design</a>, <img src={icon2} className="rayo" alt="icon" /> <a id='res' href='https://www.behance.net/vannelope____' target='_blank' >research</a></span>
           <span className='take'> and take some</span>
-          <span className='fotos'> photos.</span> <br></br>
+          <span className='fotos'> <a id='pho' href='https://www.instagram.com/vannelope____/' target='_blank'>photos.</a></span> <br></br>
         </div>
         <div className='renglon3'>
           <span className='like'>I like to</span>
@@ -53,10 +53,10 @@ function App() {
       <div className='contenedor'>
         <span className='contact'>
           <img src={icon4} alt="icon" />
-          &nbsp;<span>CONTACT</span>
+          &nbsp;<span><a id='con' href='mailto:vannelope023@gmail.com' target='_blank' >CONTACT</a></span>
         </span>
         <span className='resume'>
-          <span>RESUME</span>
+          <span><a id='resu' href='https://www.dropbox.com/s/gdsyvmk0h9nfc84/Vanessa_lopez_Resume_2022.pdf?dl=0' target='_blank'>RESUME</a></span>
           &nbsp;<img src={icon5} alt="icon" />
         </span>
       </div>
