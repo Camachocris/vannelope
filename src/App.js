@@ -12,10 +12,11 @@ function App() {
       <div className='lobo'>
         <img src={logo} className="App-logo" alt="logo" />
       </div>
+      {/* Desktop version */}
       <div className='parrafo'>
         <span className='vanne'>vannelope</span>
         <span className='designer'> is a designer based in</span>
-        <span className='medellin'> medellin,</span> <br></br>
+        <span className='medellin'> <a id='med' href='https://goo.gl/maps/JMYq3nUzuPxep4Bm9' target="_blank">medellin,</a></span> <br></br>
         <div className='renglon2'>
           <img src={icon1} className="pc" alt="icon" />
           <span className='yo'> I </span>
@@ -30,18 +31,18 @@ function App() {
           <span className='cafe'> coffee <img src={icon3} className="coffee" alt="icon" /> </span>
         </div>
       </div>
-
+      {/* Mobile version */}
       <div className='parrafo-mobile'>
         <span className='vanne'>vannelope</span>
         <span className='designer'> is a designer based in</span>
-        <span className='medellin'> medellin,</span>
+        <span className='medellin'> <a id='med' href='https://goo.gl/maps/JMYq3nUzuPxep4Bm9' target="_blank">medellin,</a></span>
         <img src={icon1} className="pc" alt="icon" />
         <span className='yo'> I</span>
-        <span className='design'> design, <br></br>
-          <img src={icon2} className="rayo" alt="icon" /> research <br></br>
+        <span className='design'> <a id='des' href='https://dribbble.com/vannelope____' target='_blank' >design</a>, <br></br>
+          <img src={icon2} className="rayo" alt="icon" /> <a id='res' href='https://www.behance.net/vannelope____' target='_blank' >research</a> <br></br>
         </span>
         <span className='take'> and take some</span><br></br>
-        <span className='fotos'> photos.</span> <br></br>
+        <span className='fotos'> <a id='pho' href='https://www.instagram.com/vannelope____/' target='_blank'>photos.</a></span> <br></br>
         <span className='like'>I like to</span>
         <span className='paint'> paint, <br></br>
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;read, travel
