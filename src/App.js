@@ -57,7 +57,7 @@ function App() {
           &nbsp;<span><a id='con' href='mailto:vannelope023@gmail.com' target='_blank' >CONTACT</a></span>
         </span>
         <span className='resume'>
-          <span><a id='resu' href='https://www.dropbox.com/s/gdsyvmk0h9nfc84/Vanessa_lopez_Resume_2022.pdf?dl=0' target='_blank'>RESUME</a></span>
+          <span><a id='resu' href='https://www.dropbox.com/s/0mqloq1wdz6m1vj/Vanessa_lopez_Resume_2022.pdf' target='_blank'>RESUME</a></span>
           &nbsp;<img src={icon5} alt="icon" />
         </span>
       </div>
