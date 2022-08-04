@@ -37,14 +37,14 @@ function App() {
         <span className='medellin'> medellin,</span>
         <img src={icon1} className="pc" alt="icon" />
         <span className='yo'> I</span>
-        <span className='design'> design, <br></br>
-          <img src={icon2} className="rayo" alt="icon" /> research <br></br>
+        <span className='design'><a id='des' href='https://dribbble.com/vannelope____' target='_blank' > design</a>, <br></br>
+          <img src={icon2} className="rayo" alt="icon" /> <a id='res' href='https://www.behance.net/vannelope____' target='_blank' >research</a> <br></br>
         </span>
         <span className='take'> and take some</span><br></br>
-        <span className='fotos'> photos.</span> <br></br>
+        <span className='fotos'><a id='pho' href='https://www.instagram.com/vannelope____/' target='_blank'>photos.</a></span> <br></br>
         <span className='like'>I like to</span>
         <span className='paint'> paint, <br></br>
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;read, travel
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;read, travel
         </span><br></br>
         <span className='good'> and a good</span>
         <span className='cafe'> coffee <br></br><img src={icon3} className="coffee" alt="icon" /> </span>
@@ -64,3 +64,4 @@ function App() {
   );
 }
 export default App;
+
