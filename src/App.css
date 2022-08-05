@@ -13,103 +13,206 @@
   width: 67px;
 }
 
-.parrafo {
-  align-items: center;
+#parrafo {
+  margin-top: 60px;
 }
 
-.vanne {
+/* renglón 1 
+===================================*/
+#renglon1 {
+  margin-left: -35px;
+}
+
+#vannelope {
   height: 54px;
   width: 289px;
   color: #FF3E48;
   font-family: Brice Black;
   font-size: 44.8px;
-  font-weight: 900;
-  letter-spacing: 0;
   line-height: 54px;
 }
 
-.designer {
+#designer {
   height: 52px;
   width: 260px;
   color: #FF3E48;
   font-family: Brice Bold Condensed;
   font-size: 42.4px;
-  letter-spacing: 0;
   line-height: 52px;
 }
 
-.medellin {
+#medellin {
   height: 54px;
   width: 247px;
   color: #FF3E48;
   font-family: Brice Black;
   font-size: 44.8px;
-  letter-spacing: 0;
   line-height: 54px;
+  display: inline-block;
 }
 
-.yo {
-  height: 52px;
-  width: 260px;
-  color: #FF3E48;
-  font-family: Brice Regular Condensed;
-  font-size: 39.2px;
-  letter-spacing: 0;
-  line-height: 52px;
-}
-
-.design {
-  height: 54px;
-  width: 289px;
-  color: #FF3E48;
-  font-family: Brice Black;
-  font-size: 39.2px;
-  font-weight: 900;
-  letter-spacing: 0;
-  line-height: 54px;
-}
-
-a {
+#med {
   color: #FF3E48;
   text-decoration: none;
 }
 
-.take {
+#med::after {
+  content: '';
+  width: 0;
+  height: 3px;
+  background-color: #FF3E48;
+  margin: auto;
+  display: block;
+}
+
+#med:hover::after {
+  width: 100%;
+  transition: width .2s linear;
+}
+
+/* renglón 2 
+======================================*/
+#renglon2 {
+  margin-right: -40px;
+  display: block;
+}
+
+.pc {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+#yo {
   height: 52px;
-  width: 260px;
+  width: auto;
   color: #FF3E48;
   font-family: Brice Regular Condensed;
   font-size: 39.2px;
-  letter-spacing: 0;
   line-height: 52px;
+  display: inline-block;
+  margin-right: 5px;
 }
 
-.fotos {
+#design {
   height: 54px;
-  width: 289px;
+  width: auto;
   color: #FF3E48;
   font-family: Brice Black;
   font-size: 39.2px;
   font-weight: 900;
-  letter-spacing: 0;
   line-height: 54px;
+  display: inline-block;
 }
 
-.renglon2 {
-  margin-left: 40px;
+#des {
+  color: #FF3E48;
+  text-decoration: none;
 }
 
-.like {
+#des::after {
+  content: '';
+  width: 0;
+  height: 3px;
+  background-color: #FF3E48;
+  margin: auto;
+  display: block;
+}
+
+#des:hover::after {
+  width: 100%;
+  transition: width .2s linear;
+}
+
+#research {
+  height: 54px;
+  width: auto;
+  color: #FF3E48;
+  font-family: Brice Black;
+  font-size: 39.2px;
+  font-weight: 900;
+  line-height: 54px;
+  display: inline-block;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+#res {
+  color: #FF3E48;
+  text-decoration: none;
+}
+
+#research::after {
+  content: '';
+  width: 0;
+  height: 3px;
+  background-color: #FF3E48;
+  margin: auto;
+  display: block;
+}
+
+#research:hover::after {
+  width: 100%;
+  transition: width .2s linear;
+}
+
+#take {
+  height: 52px;
+  width: auto;
+  color: #FF3E48;
+  font-family: Brice Regular Condensed;
+  font-size: 39.2px;
+  line-height: 52px;
+  display: inline-block;
+  margin-right: 5px;
+}
+
+#fotos {
+  height: 54px;
+  width: auto;
+  color: #FF3E48;
+  font-family: Brice Black;
+  font-size: 39.2px;
+  font-weight: 900;
+  line-height: 54px;
+  display: inline-block;
+}
+
+#pho {
+  color: #FF3E48;
+  text-decoration: none;
+}
+
+#pho::after {
+  content: '';
+  width: 0;
+  height: 3px;
+  background-color: #FF3E48;
+  margin: auto;
+  display: block;
+}
+
+#pho:hover::after {
+  width: 100%;
+  transition: width .2s linear;
+}
+
+/* renglón 3
+======================================*/
+
+#renglon3 {
+  margin-left: 125px;
+}
+
+#like {
   height: 52px;
   width: 260px;
   color: #FF3E48;
   font-family: Brice Regular Condensed;
   font-size: 39.2px;
-  letter-spacing: 0;
   line-height: 52px;
 }
 
-.paint {
+#paint {
   height: 52px;
   width: 260px;
   color: #FF3E48;
@@ -119,29 +222,25 @@ a {
   line-height: 52px;
 }
 
-.good {
+#good {
   height: 52px;
   width: 260px;
   color: #FF3E48;
   font-family: Brice Regular Condensed;
   font-size: 39.2px;
-  letter-spacing: 0;
   line-height: 52px;
 }
 
-.cafe {
+#cafe {
   height: 52px;
   width: 260px;
   color: #FF3E48;
   font-family: Brice Extra Light SemiCondensed;
   font-size: 39.2px;
-  letter-spacing: 0;
   line-height: 52px;
 }
 
-.renglon3 {
-  margin-left: 170px;
-}
+/*======================================*/
 
 .contenedor {
   display: flex;
@@ -154,20 +253,37 @@ a {
 }
 
 .contact {
-  display: flex;
+  display: inline-block;
   font-family: Brice Black;
   color: #FFFFFF;
   font-size: 29px;
   margin-right: 40px;
   padding: 20px 0;
+  padding-top: 25px;
 }
 
 #con {
   color: #FFFFFF;
+  text-decoration: none;
+}
+
+.contact::after {
+  content: '';
+  width: 0;
+  height: 3px;
+  background-color: #FFFFFF;
+  margin: auto;
+  display: block;
+  margin-left: 0px;
+}
+
+.contact:hover::after {
+  width: 100%;
+  transition: width .2s linear;
 }
 
 .resume {
-  display: flex;
+  display: inline-block;
   font-family: Brice Black;
   color: #FFFFFF;
   font-size: 29px;
@@ -177,51 +293,209 @@ a {
 
 #resu {
   color: #FFFFFF;
+  text-decoration: none;
 }
 
-.parrafo-mobile {
+.resume::after {
+  content: '';
+  width: 0;
+  height: 3px;
+  background-color: #FFFFFF;
+  margin: auto;
+  display: block;
+  margin-right: 0px;
+}
+
+.resume:hover::after {
+  width: 100%;
+  transition: width .2s linear;
+}
+
+#parrafo-mobile {
   display: none;
 }
 
 @media only screen and (max-width: 750px) {
-  .parrafo {
+  #parrafo {
     display: none;
   }
-  .parrafo-mobile {
+
+  #parrafo-mobile {
     display: block;
     text-align: center;
     padding-bottom: 30px;
   }
-  .App{
+
+  .App {
     height: 150vh;
   }
+
   .lobo {
     padding-bottom: 20px;
   }
-  .vanne {
+
+  #vannem {
+    height: 54px;
+    width: 289px;
+    color: #FF3E48;
+    font-family: Brice Black;
+    font-size: 44.8px;
+    line-height: 54px;
+  }
+
+  #designerm {
+    height: 52px;
+    width: 260px;
+    color: #FF3E48;
+    font-family: Brice Bold Condensed;
+    font-size: 42.4px;
+    line-height: 52px;
+    margin-left: 13px;
+  }
+
+  #medallo {
+    height: 54px;
+    width: 247px;
+    color: #FF3E48;
+    font-family: Brice Black;
+    font-size: 44.8px;
+    line-height: 54px;
+    margin-left: 20px;
+  }
+
+  #medallo::after {
+    color: #FF3E48;
+    text-decoration: none;
+  }
+  
+  #medallo:hover::after {
+    content: '';
+    width: 0;
+    height: 3px;
+    background-color: #FF3E48;
+    margin: auto;
     display: block;
   }
-  .designer {
+
+  #yom {
+    height: 52px;
+    width: auto;
+    color: #FF3E48;
+    font-family: Brice Regular Condensed;
+    font-size: 39.2px;
+    line-height: 52px;
+    display: inline-block;
+    margin-right: 5px;
+  }
+
+  #designm {
+    height: 54px;
+    width: auto;
+    color: #FF3E48;
+    font-family: Brice Black;
+    font-size: 39.2px;
+    font-weight: 900;
+    line-height: 54px;
+    display: inline-block;
+  }
+
+  #researchm {
+    height: 54px;
+    width: auto;
+    color: #FF3E48;
+    font-family: Brice Black;
+    font-size: 39.2px;
+    font-weight: 900;
+    line-height: 54px;
     display: block;
-    padding-left: 13px;
+    margin-right: 5px;
+    margin-left: 10px;
   }
-  .medellin {
+
+  #researchm::after {
+    content: '';
+    width: 0;
+    height: 3px;
+    background-color: #FF3E48;
+    margin: auto;
     display: block;
-    padding-bottom: 0px;
-    padding-left: 20px;
   }
-  .rayo {
-    padding-right: 5px;
+  
+  #researchm:hover::after {
+    width: 80%;
+    transition: width .2s linear;
   }
-  .take {
-    padding-right: 50px;
-    padding-top: 5px;
-    padding-bottom: 5px;
+
+  #take{
+    margin-right: 60px;
   }
-  .fotos {
-    padding-left: 80px;
+
+  #pho {
+    height: 54px;
+    width: auto;
+    color: #FF3E48;
+    font-family: Brice Black;
+    font-size: 39.2px;
+    font-weight: 900;
+    line-height: 54px;
+    display: block;
+    margin-left: 70px;
   }
-  .like {
-    margin-left: -50px;
+
+  #pho::after {
+    content: '';
+    width: 0;
+    height: 3px;
+    background-color: #FF3E48;
+    margin: auto;
+    display: block;
+  }
+  
+  #pho:hover::after {
+    width: 75%;
+    transition: width .2s linear;
+    margin-right: 0px;
+  }
+
+  #likem {
+    height: 52px;
+    width: 260px;
+    color: #FF3E48;
+    font-family: Brice Regular Condensed;
+    font-size: 39.2px;
+    line-height: 52px;
+    display: inline-block;
+    margin-right: 60px;
+  }
+
+  #paintm {
+    height: 52px;
+    width: 260px;
+    color: #FF3E48;
+    font-family: Brice Extra Light SemiCondensed;
+    font-size: 39.2px;
+    line-height: 52px;
+    display: inline;
+  }
+
+  #readm{
+    height: 52px;
+    width: 260px;
+    color: #FF3E48;
+    font-family: Brice Extra Light SemiCondensed;
+    font-size: 39.2px;
+    line-height: 52px;
+    margin-left: 60px;
+
+  }
+
+  #coffeem{
+    height: 52px;
+    width: 260px;
+    color: #FF3E48;
+    font-family: Brice Extra Light SemiCondensed;
+    font-size: 39.2px;
+    line-height: 52px;
+    display: inline;
   }
 }

@@ -12,53 +12,79 @@ function App() {
       <div className='lobo'>
         <img src={logo} className="App-logo" alt="logo" />
       </div>
+
       {/* Desktop version */}
-      <div className='parrafo'>
-        <span className='vanne'>vannelope</span>
-        <span className='designer'> is a designer based in</span>
-        <span className='medellin'> <a id='med' href='https://goo.gl/maps/JMYq3nUzuPxep4Bm9' target="_blank">medellin,</a></span> <br></br>
-        <div className='renglon2'>
-          <img src={icon1} className="pc" alt="icon" />
-          <span className='yo'> I </span>
-          <span className='design'><a id='des' href='https://dribbble.com/vannelope____' target='_blank' >design</a>, <img src={icon2} className="rayo" alt="icon" /> <a id='res' href='https://www.behance.net/vannelope____' target='_blank' >research</a></span>
-          <span className='take'> and take some</span>
-          <span className='fotos'> <a id='pho' href='https://www.instagram.com/vannelope____/' target='_blank'>photos.</a></span> <br></br>
+      <div id='parrafo'>
+
+        <div id='renglon1'>
+          <p>
+            <span id='vannelope'>vannelope </span>
+            <span id='designer'>is a designer based in </span>
+            <span id='medellin'>
+              <a id='med' href='https://goo.gl/maps/JMYq3nUzuPxep4Bm9' target="_blank">medellin,</a>
+            </span>
+          </p>
         </div>
-        <div className='renglon3'>
-          <span className='like'>I like to</span>
-          <span className='paint'> paint, read, travel</span>
-          <span className='good'> and a good</span>
-          <span className='cafe'> coffee <img src={icon3} className="coffee" alt="icon" /> </span>
+
+        <div id='renglo2'>
+          <p>
+            <img src={icon1} className="pc" alt="icon" />
+            <div id='yo'> I </div>
+            <div id='design'>
+              <a id='des' href='https://dribbble.com/vannelope____' target='_blank' >design, </a>
+            </div>
+            <img src={icon2} className="rayo" alt="icon" />
+            <div id='research'>
+              <a id='res' href='https://www.behance.net/vannelope____' target='_blank' >research</a>
+            </div>
+            <div id='take'>and take some </div>
+            <div id='fotos'>
+              <a id='pho' href='https://www.instagram.com/vannelope____/' target='_blank'>photos.</a>
+            </div>
+          </p>
         </div>
-      </div>
-      {/* Mobile version */}
-      <div className='parrafo-mobile'>
-        <span className='vanne'>vannelope</span>
-        <span className='designer'> is a designer based in</span>
-        <span className='medellin'> <a id='med' href='https://goo.gl/maps/JMYq3nUzuPxep4Bm9' target="_blank">medellin,</a></span>
-        <img src={icon1} className="pc" alt="icon" />
-        <span className='yo'> I</span>
-        <span className='design'> <a id='des' href='https://dribbble.com/vannelope____' target='_blank' >design</a>, <br></br>
-          <img src={icon2} className="rayo" alt="icon" /> <a id='res' href='https://www.behance.net/vannelope____' target='_blank' >research</a> <br></br>
-        </span>
-        <span className='take'> and take some</span><br></br>
-        <span className='fotos'> <a id='pho' href='https://www.instagram.com/vannelope____/' target='_blank'>photos.</a></span> <br></br>
-        <span className='like'>I like to</span>
-        <span className='paint'> paint, <br></br>
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;read, travel
-        </span><br></br>
-        <span className='good'> and a good</span>
-        <span className='cafe'> coffee <br></br><img src={icon3} className="coffee" alt="icon" /> </span>
+
+        <div id='renglon3'>
+          <p>
+            <span id='like'>I like to </span>
+            <span id='paint'>paint, read, travel </span>
+            <span id='good'>and a good </span>
+            <span id='cafe'>coffee </span><img src={icon3} className="coffee" alt="icon" />
+          </p>
+        </div>
       </div>
 
+      {/* Mobile version */}
+      <div id='parrafo-mobile'>
+        <div id='vannem'>vannelope</div>
+        <div id='designerm'>is a designer based in </div>
+        <div id='medallo'><a id='med' href='https://goo.gl/maps/JMYq3nUzuPxep4Bm9' target="_blank">medellin,</a></div>
+        <div id='designm'><img src={icon1} className="pc" alt="icon" /><span id='yom'>I </span><a id='des' href='https://dribbble.com/vannelope____' target='_blank' >design, </a></div>
+        <div id='researchm'><img src={icon2} className="rayo" alt="icon" /><a id='res' href='https://www.behance.net/vannelope____' target='_blank' >research</a></div>
+        <div id='take'>and take some</div>
+        <div id='pho'><a id='pho' href='https://www.instagram.com/vannelope____/' target='_blank'>photos.</a></div>
+        <div id='likem'>I like to <div id='paintm'>paint,</div></div>
+        <div id='readm'>&nbsp;&nbsp;&nbsp;&nbsp;read, travel</div>
+        <div id='coffeem'>and a good coffee</div>
+        <div><img src={icon3} className="coffee" alt="icon" /></div>
+      </div>
+
+      {/* Footer */}
       <div className='contenedor'>
         <span className='contact'>
           <img src={icon4} alt="icon" />
-          &nbsp;<span><a id='con' href='mailto:vannelope023@gmail.com' target='_blank' >CONTACT</a></span>
+          &nbsp;
+          <span>
+            <a id='con' href='mailto:vannelope023@gmail.com' target='_blank' >CONTACT</a>
+          </span>
         </span>
+
         <span className='resume'>
-          <span><a id='resu' href='https://www.dropbox.com/s/0mqloq1wdz6m1vj/Vanessa_lopez_Resume_2022.pdf' target='_blank'>RESUME</a></span>
-          &nbsp;<img src={icon5} alt="icon" />
+          <span>
+            <a id='resu' href='https://www.dropbox.com/s/0mqloq1wdz6m1vj/Vanessa_lopez_Resume_2022.pdf' target='_blank'>RESUME</a>
+          </span>
+          &nbsp;
+          <img src={icon5} alt="icon" />
         </span>
       </div>
     </div>
